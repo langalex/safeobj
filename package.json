@@ -2,8 +2,8 @@
   "name": "safeobj",
   "version": "1.0.3",
   "description": "Safe object property access using Proxies",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "modules/index.js",
+  "types": "modules/index.d.ts",
   "scripts": {
     "test": "jest && tsc",
     "build": "babel modules -d lib --ignore .test.js && cp modules/index.d.ts lib/"
